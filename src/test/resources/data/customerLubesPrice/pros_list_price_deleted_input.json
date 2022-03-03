@@ -1,0 +1,14 @@
+{
+  "UUID": "b51b8d0d-318f-358d-aef5-59db1240f014",
+  "Condition_Table_ID": "TP1AMRPL1",
+  "Condition_Type": "TP1AMR",
+  "Key_Values": "E2E/00A9/NA106076",
+  "Valid_From_Date": "20200101",
+  "Valid_To_Date": "20201231",
+  "Currency_Code": "USD",
+  "Base_Per_Quantity": 1,
+  "Base_UOM_Code": "UG6",
+  "Condition_Value": 9.41,
+  "Action": "DELETE",
+  "Extraction_Time": "20201204 10:45:41"
+}

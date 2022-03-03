@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "eventId": "b2481f50-417b-40dc-9db5-5a8ce7cb0848",
+    "eventType": "CHANGED",
+    "timestamp": "2021-04-09T02:27:35.391"
+  },
+  "data": {
+    "stripesSystem": "na",
+    "customer": {
+      "accountType": "customer",
+      "stripesId": "na-120666",
+      "stripesNumber": "120666"
+    },
+    "product": {
+      "stripesId": "na-106076",
+      "stripesNumber": "106076"
+    },
+    "priceBookIndicator": "E2E",
+    "priceItems": [
+      {
+        "startDate": "2020-01-01T00:01:11.000",
+        "endDate": "2020-05-31T23:59:59.000",
+        "listPrices": [
+          {
+            "uom": "UG6",
+            "currency": "USD",
+            "unitAmount": 1,
+            "value": 9.41,
+            "status": "inactive"
+          }
+        ],
+        "negotiatedPrices":[
+        {
+          "prosExtractionTime": "2021-01-02T00:04:00.000",
+          "uom": "UG6",
+          "currency": "USD",
+          "unitAmount": 1,
+          "value": 8.6,
+          "agreementId":"PR_AG-0002222",
+          "quoteLineItemId":"433cb8de-3477-11eb-adc1-0242ac120003_na-106076",
+          "quoteId":"433cb8de-3477-11eb-adc1-0242ac120003",
+          "status": "inactive"
+        }]
+      },
+      {
+        "startDate": "2020-06-01T00:00:00.000",
+        "endDate": "2020-12-31T23:59:59.000",
+        "listPrices": [
+          {
+            "uom": "UG6",
+            "currency": "USD",
+            "unitAmount": 1,
+            "value": 9.41,
+            "status": "inactive"
+          }
+        ],
+        "negotiatedPrices":[]
+      }
+    ]
+  }
+}

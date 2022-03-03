@@ -1,0 +1,38 @@
+[{
+  "metadata": {
+    "eventId": "33a4fe418-21fe-48d42-86c9-9b08f0b8f2ad",
+    "eventType": "CREATED",
+    "timestamp": "2021-03-25T23:13:09.978"
+  },
+  "data": {
+    "stripesSystem": "na",
+    "distributor": {
+      "accountType": "customer",
+      "stripesId": "na-447049",
+      "stripesNumber": "447049"
+    },
+    "product": {
+      "stripesId": "na-100000",
+      "stripesNumber": "100000"
+    },
+    "sellAsProduct": {
+      "stripesId": "na-100001",
+      "stripesNumber": "100001"
+    },
+    "prosExtractionTime" : "2021-03-03T16:06:08.000",
+    "agreementId": "AG-0023574",
+    "priceBookIndicator": "E2E",
+    "priceItem": {
+      "startDate": "2021-01-01T00:00:00.000",
+      "endDate": "2022-12-31T23:59:59.000",
+      "uom": "UG6",
+      "currency": "USD",
+      "unitAmount": 1,
+      "spaDiscountValue": 3.32344,
+      "status": "active"
+    },
+    "conditionType": {
+      "code": "PSPACANPM"
+    }
+  }
+}]

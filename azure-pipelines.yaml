@@ -1,0 +1,115 @@
+trigger: none
+
+stages:
+- stage: 'CleanTestData'
+  pool:
+    vmImage: 'ubuntu-20.04'
+  variables:
+    serverName: pdsazuresqlserverqa
+    databaseName: pdsazuresqldbqa
+    sqlAdminKeyVaultName: kvpdsnonprod
+    sqlAdminSecretName: sqlLoginPasswordQa
+    databaseUserName: pdssqldbadmin
+  jobs:
+    - job:
+      steps:
+        - task: AzurePowerShell@4
+          displayName: 'Clean Test Data in Database [QA]'
+          inputs:
+            azureSubscription: 'pds-arm-nonprod'
+            scriptType: 'FilePath'
+            scriptPath: '$(System.DefaultWorkingDirectory)/scripts/sql_clean_test_data.ps1'
+            scriptArguments:
+              -sqlAdminKeyVaultName $(sqlAdminKeyVaultName) `
+              -sqlAdminSecretName $(sqlAdminSecretName) `
+              -serverName $(serverName) `
+              -databaseName $(databaseName) `
+              -databaseUserName $(databaseUserName) `
+              -databasePassword $(databasePassword)
+            errorActionPreference: stop
+            failOnStandardError: true
+            azurePowerShellVersion: latestVersion
+
+- stage: 'RunTest'
+  pool:
+    vmImage: 'ubuntu-20.04'
+  jobs:
+    - job:
+      steps:
+        - task: Gradle@2
+          displayName: 'Run Cucumber List Price'
+          inputs:
+            workingDirectory: ''
+            gradleWrapperFile: 'gradlew'
+            gradleOptions: '-Xmx3072m'
+            javaHomeOption: 'JDKVersion'
+            jdkVersionOption: '1.8'
+            jdkArchitectureOption: 'x64'
+            publishJUnitResults: true
+            testResultsFiles: 'build/reports/cucumber-results.xml'
+            tasks: 'cucumber -Pprofile=qa -PkafkaUsername=$(kafka.username)
+            -PkafkaPassword=$(kafka.password)
+            -Pfeature=@listPrice
+            -PclientSecret=$(clientSecret)'
+        - task: Gradle@2
+          displayName: 'Run Cucumber Customer Lubes Price'
+          inputs:
+            workingDirectory: ''
+            gradleWrapperFile: 'gradlew'
+            gradleOptions: '-Xmx3072m'
+            javaHomeOption: 'JDKVersion'
+            jdkVersionOption: '1.8'
+            jdkArchitectureOption: 'x64'
+            publishJUnitResults: true
+            testResultsFiles: 'build/reports/cucumber-results.xml'
+            tasks: 'cucumber -Pprofile=qa -PkafkaUsername=$(kafka.username)
+            -PkafkaPassword=$(kafka.password)
+            -Pfeature=@customerLubesPrice
+            -PclientSecret=$(clientSecret)'
+        - task: Gradle@2
+          displayName: 'Run Cucumber Quote'
+          inputs:
+            workingDirectory: ''
+            gradleWrapperFile: 'gradlew'
+            gradleOptions: '-Xmx3072m'
+            javaHomeOption: 'JDKVersion'
+            jdkVersionOption: '1.8'
+            jdkArchitectureOption: 'x64'
+            publishJUnitResults: true
+            testResultsFiles: 'build/reports/cucumber-results.xml'
+            tasks: 'cucumber -Pprofile=qa -PkafkaUsername=$(kafka.username)
+            -PkafkaPassword=$(kafka.password)
+            -Pfeature=@quote
+            -PclientSecret=$(clientSecret)'
+        - task: Gradle@2
+          displayName: 'Run Cucumber SPA Price'
+          inputs:
+            workingDirectory: ''
+            gradleWrapperFile: 'gradlew'
+            gradleOptions: '-Xmx3072m'
+            javaHomeOption: 'JDKVersion'
+            jdkVersionOption: '1.8'
+            jdkArchitectureOption: 'x64'
+            publishJUnitResults: true
+            testResultsFiles: 'build/reports/cucumber-results.xml'
+            tasks: 'cucumber -Pprofile=qa -PkafkaUsername=$(kafka.username)
+            -PkafkaPassword=$(kafka.password)
+            -Pfeature=@spaPrice
+            -PclientSecret=$(clientSecret)'
+        - task: Gradle@2
+          displayName: 'Run Cucumber SPA Quote'
+          inputs:
+            workingDirectory: ''
+            gradleWrapperFile: 'gradlew'
+            gradleOptions: '-Xmx3072m'
+            javaHomeOption: 'JDKVersion'
+            jdkVersionOption: '1.8'
+            jdkArchitectureOption: 'x64'
+            publishJUnitResults: true
+            testResultsFiles: 'build/reports/cucumber-results.xml'
+            tasks: 'cucumber -Pprofile=qa -PkafkaUsername=$(kafka.username)
+            -PkafkaPassword=$(kafka.password)
+            -Pfeature=@spaQuote
+            -PclientSecret=$(clientSecret)'
+
+

@@ -1,0 +1,202 @@
+{
+  "UUID": "5f22f6f9-8bc8-4439-a192-f798cd83f410",
+  "header": {
+    "aggProductionExpenseField": {
+      "currency": "CAD",
+      "value": 10
+    },
+    "aggProductPriceField": {
+      "currency": "CAD",
+      "value": 49.509682
+    },
+    "apf_weight": 30,
+    "apt_weight": 20,
+    "currTotal": {
+      "currency": "CAD",
+      "value": 49.50969
+    },
+    "currTotalRebate": {
+      "currency": "CAD",
+      "value": 20
+    },
+    "displayCurrency": "CAD",
+    "firmPricing": false,
+    "firmPricingEndDateStrField": "9999-12-31",
+    "isFormulaPricing": false,
+    "margin_weight": 80,
+    "MBU": "North America",
+    "netTotal": {
+      "currency": "CAD",
+      "value": 49.509811
+    },
+    "owner": "JEFF BOUDREAUX",
+    "ppNumberDays": 25,
+    "priceBookIndicator": "E2E",
+    "priceListName": "PCI Canada Negotiated Price Adj",
+    "priceProtection": true,
+    "PROSAgreement__Agreement_Id": "TS_AG-0021394",
+    "PROSAgreement__EndDate": "2999-12-31",
+    "PROSAgreement__StartDate": "2021-10-01",
+    "quote_Score_Percentage": 0.561641,
+    "quoteApfWeighted": 0.149968,
+    "quoteAptWeighted": 0.112079,
+    "quoteId": "5f22f6f9-8bc8-4439-a192-f798cd83f410",
+    "quoteMargin": 0.749412,
+    "quoteMarginWeighted": 0.59953,
+    "quoteTypeField": "Standard Quote",
+    "REV_DOAG": "8",
+    "salesOrgCode": "1552",
+    "sumGrossMarginFieldBBL": {
+      "currency": "CAD",
+      "value": 232.522107
+    },
+    "totalVolumeBarrels": 0.11322,
+    "unifiedTotalVolumeL15": 18,
+    "unifiedTotalVolumeUG6": 4.755098
+  },
+  "line": {
+    "accountIdColumn": "ST_0000525518_NA",
+    "additionalVolNeeded": 23,
+    "additionalVolNeededPercent": 12,
+    "apf_maxColumn": 100,
+    "apf_minColumn": 85,
+    "apfScoreColumn": 0.54902,
+    "apt_bottomColumn": 50,
+    "apt_topColumn": 100,
+    "aptScoreColumn": 0.56,
+    "competitorPriceColumn": {},
+    "costConverted": {
+      "currency": "CAD",
+      "value": 1.803826
+    },
+    "currentQuantityColumn": 1,
+    "deliveredMarginUoMCol": {
+      "currency": "CAD",
+      "value": -0.477483
+    },
+    "dontPrintCol": false,
+    "drivingFactorCol": "Lowest Acceptable Margin Price",
+    "earlyPaymentDiscountColumn": {
+      "currency": "CAD",
+      "value": 18
+    },
+    "endDateColumn": "2999-12-31",
+    "expertColumn": {
+      "currency": "CAD",
+      "value": 1.904493
+    },
+    "exportUomColumn": "L15",
+    "floorColumn": {
+      "currency": "CAD",
+      "value": 1.445374
+    },
+    "hardFloorColumn": {
+      "currency": "CAD",
+      "value": 0.15
+    },
+    "inputUomColumn": "L15",
+    "invoiceFreight": {
+      "currency": "CAD",
+      "value": 10.1
+    },
+    "listColumn": {
+      "currency": "CAD",
+      "value": 5.41
+    },
+    "margin_bottomColumn": 0,
+    "margin_topColumn": 50,
+    "marginScoreColumn": -0.72,
+    "netPriceColumn": {
+      "currency": "CAD",
+      "value": 1.326343
+    },
+    "pocketPriceColumn": {
+      "currency": "CAD",
+      "value": 1.326323
+    },
+    "premiumColumn": "PREM",
+    "productFamilyColumn": "VACTRA",
+    "productPriceColumn": {
+      "currency": "CAD",
+      "value": 1.326318
+    },
+    "productTypeColumn": "IND",
+    "publishAccountIdColumn": "ST_0000525518_NA",
+    "rebateProgram1": "NA",
+    "rebateProgram2": "NAH",
+    "rebateProgram3": "BU",
+    "rebateProgram4": "HH",
+    "rebateProgram5": "AI",
+    "rebateValue1": {
+      "currency": "CAD",
+      "value": 13
+    },
+    "rebateValue2": {
+      "currency": "CAD",
+      "value": 12.3
+    },
+    "rebateValue3": {
+      "currency": "CAD",
+      "value": -12
+    },
+    "rebateValue4": {
+      "currency": "CAD",
+      "value": 23
+    },
+    "rebateValue5": {
+      "currency": "CAD",
+      "value": 123
+    },
+    "referenceCostColumn": {
+      "currency": "CAD",
+      "value": 1.803826
+    },
+    "requiredVolForMarginMatch": 1,
+    "rolling12MoQtyColumn": 23,
+    "shippingCondition": "02",
+    "shortPartNumberColumn": "104425",
+    "startDateColumn": "2021-10-1",
+    "stdQuantityCol": 1,
+    "targetColumn": {
+      "currency": "CAD",
+      "value": 1.70044
+    },
+    "totalRebatesColumn": {
+      "currency": "CAD",
+      "value": 13.4
+    },
+    "traderMarginCol": {
+      "currency": "CAD",
+      "value": 134.2
+    },
+    "unitDeliveredMarginCol": {
+      "currency": "CAD",
+      "value": -0.477483
+    },
+    "unitGrossMarginCol": {
+      "currency": "CAD",
+      "value": -0.4774
+    },
+    "uomWaterfallCol": "L15",
+    "wtDeliverySurcharge": {
+      "currency": "CAD",
+      "value": 12
+    },
+    "wtEarlyPaymentDiscountColumn": {
+      "currency": "CAD",
+      "value": 13
+    },
+    "wtFreightColumn": {
+      "currency": "CAD",
+      "value": 14
+    },
+    "wtGrossMarginL15Col": {
+      "currency": "CAD",
+      "value": -0.477483
+    },
+    "wtProductionExpenseCol": {
+      "currency": "CAD",
+      "value": 15
+    }
+  }
+}

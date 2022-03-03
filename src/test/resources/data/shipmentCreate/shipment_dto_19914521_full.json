@@ -1,0 +1,335 @@
+{
+  "shipmentDto": {
+    "action": "Create",
+    "number": "19914521",
+    "source": "AMP",
+    "deliveries": [
+      {
+        "deliveryNumber": "8033259131",
+        "shipmentItemNumber": "0001",
+        "stopNumber": null
+      }
+    ],
+    "metadata": {
+      "updatedAt": "2022-01-30T15:20:38Z",
+      "updatedBy": "AMP",
+      "middleware": "XI",
+      "middlewareReference": "0000000784974622"
+    },
+    "messageType": "SHPMNT_MQ",
+    "status": null,
+    "functionalStatus": null,
+    "functionalStatusDescription": null,
+    "plannedLoadingDate": null,
+    "carrierName": null,
+    "vehicleIdentifier": null,
+    "carrierSapNumber": null,
+    "externalShipmentId": null,
+    "shipmentApiMode": null,
+    "carrierIdentifier": null,
+    "shipmentIdentifiers": null,
+    "equipmentIdentifiers": null,
+    "shipmentStops": null,
+    "statusUpdates": null,
+    "latestStopStatuses": null,
+    "messageTypeValid": true,
+    "messageTypePresent": true
+  },
+  "deliveries": [
+    {
+      "modifiedAt": {
+        "dayOfYear": 30,
+        "dayOfWeek": "SUNDAY",
+        "month": "JANUARY",
+        "dayOfMonth": 30,
+        "year": 2022,
+        "monthValue": 1,
+        "hour": 15,
+        "minute": 20,
+        "second": 46,
+        "nano": 394000000,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "deliveryId": "AMP_8033259131",
+      "action": "CREATE",
+      "deliveryNumber": "8033259131",
+      "source": "AMP",
+      "soldTo": "100394",
+      "soldToName": "UNITED HARDWARE DISTRIBUTORS",
+      "shipTo": "133332",
+      "shipToName": "UNITED HARDWARE DISTRIBUTORS",
+      "shipToAddress": {
+        "addressId": 54880236,
+        "street": "1102 WEST MILBANK AVENUE",
+        "city": "MILBANK",
+        "country": "US",
+        "countryRegion": "SD",
+        "countryRegionDesc": "South Dakota",
+        "postalCode": "57252"
+      },
+      "plantCode": "00UY",
+      "plantAddress": {
+        "addressId": 54880235,
+        "street": "2230 HIGHWAY 1 NORTH",
+        "city": "Port Allen",
+        "country": "US",
+        "countryRegion": "LA",
+        "countryRegionDesc": "Louisiana",
+        "postalCode": "70767"
+      },
+      "salesOrganization": "3862",
+      "division": "04",
+      "distributionChannel": "03",
+      "shippingCondition": "02",
+      "status": "SHIPPED",
+      "groupId": "19914521",
+      "updatedBy": "AMP",
+      "esn": null,
+      "shipmentNumber": "19914521",
+      "updatedAt": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 30,
+        "dayOfWeek": "SUNDAY",
+        "month": "JANUARY",
+        "dayOfMonth": 30,
+        "year": 2022,
+        "monthValue": 1,
+        "hour": 15,
+        "minute": 20,
+        "second": 38,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "plannedDeliveryDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 33,
+        "dayOfWeek": "WEDNESDAY",
+        "month": "FEBRUARY",
+        "dayOfMonth": 2,
+        "year": 2022,
+        "monthValue": 2,
+        "hour": 6,
+        "minute": 0,
+        "second": 0,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "actualGIDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 30,
+        "dayOfWeek": "SUNDAY",
+        "month": "JANUARY",
+        "dayOfMonth": 30,
+        "year": 2022,
+        "monthValue": 1,
+        "hour": 15,
+        "minute": 19,
+        "second": 41,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "plannedLoadingDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 30,
+        "dayOfWeek": "SUNDAY",
+        "month": "JANUARY",
+        "dayOfMonth": 30,
+        "year": 2022,
+        "monthValue": 1,
+        "hour": 6,
+        "minute": 0,
+        "second": 0,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "etaDate": null,
+      "transitTimeDays": 3,
+      "creationDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 30,
+        "dayOfWeek": "SUNDAY",
+        "month": "JANUARY",
+        "dayOfMonth": 30,
+        "year": 2022,
+        "monthValue": 1,
+        "hour": 15,
+        "minute": 19,
+        "second": 6,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "loadingDateTime": null,
+      "holidayApiDateTime": null,
+      "ignoreTransitTime": null,
+      "supplyMethod": "DELIVERY",
+      "deliveryLineItems": [
+        {
+          "id": 54880237,
+          "itemNumber": "000010",
+          "material": "102991",
+          "quantity": 20,
+          "uom": "CAS",
+          "packageType": "PACK",
+          "materialDescription": "MOBIL 1 SAE 5W-30, ADVANCED FULL SYNTHETIC, SP, CASE 6X1UQL/0.95L",
+          "palletCount": 0.128,
+          "volumeQuantity": 113.562,
+          "volumeUom": "L15",
+          "orderItemNumber": "10",
+          "goodsInspectionDeltaQty": null,
+          "grossUoM": "KG",
+          "grossWeight": "106.842"
+        }
+      ],
+      "events": [],
+      "orderNumber": "1040573971",
+      "purchaseOrderNumber": "OFOEXX-054 US Package Truck",
+      "sealNumber": null,
+      "miscellaneousNumber": null,
+      "trailerNumber": null,
+      "incoTerm": "DAP",
+      "carrierName": null,
+      "requestedDeliveryDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [],
+            "transitionRules": []
+          }
+        },
+        "dayOfYear": 32,
+        "dayOfWeek": "TUESDAY",
+        "month": "FEBRUARY",
+        "dayOfMonth": 1,
+        "year": 2022,
+        "monthValue": 2,
+        "hour": 0,
+        "minute": 0,
+        "second": 0,
+        "nano": 0,
+        "chronology": {
+          "calendarType": "iso8601",
+          "id": "ISO"
+        }
+      },
+      "shipmentItemNumber": "0001",
+      "carrierSapNumber": null,
+      "plantName": "PT ALLEN LOBP:LUB:3862",
+      "externalShipmentId": null,
+      "shipmentApiMode": null,
+      "logicalOrderNumber": null,
+      "shouldResend": false,
+      "customerGroup": null,
+      "deliveryType": "ZLF",
+      "specialInstructions": "FOR ANY QUESTIONS RELATING TO THIS ORDER CONTACT XOM.LUBES.ORDER.01@EXX ONMOBIL.COM While in transit, carrier must avoid high securi ty risk areas. Cargo must be secured at all times. Cargo must be stored at a facility yard with restricted access. Facility must hav e a locked gated and should have 24/7 surveillance camera, security guards or keep entry logs. Security requirements above are appli cable whether using Carrier owned assets or whether Carrier sub-contracts the order",
+      "totalGoodsMovementStatus": "C"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "eventId": "OdUWJ0sBjDrqHySHpns1z0",
+    "eventType": "CREATED",
+    "timestamp": "2020-06-29T00:00:00.000"
+  },
+  "data": {
+    "stripesSystem": "na",
+    "customer": {
+      "accountType": "customer",
+      "id": "na-120666",
+      "number": "120666"
+    },
+    "product": {
+      "id": "na-106076",
+      "number": "106076"
+    },
+    "priceBookIndicator": "E2E",
+    "validFrom": "2020-01-01T00:01:11.111",
+    "validTo": "9999-12-31T19:19:19.000"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "shipmentDto": {
+    "action": "Change",
+    "number": "8019609545",
+    "source": "APP",
+    "messageType": "SHPMNT_MQ",
+    "plannedLoadingDate": "20210929T062020Z",
+    "functionalStatus": "2",
+    "functionalStatusDescription": "Scheduled",
+    "metadata": {
+      "updatedAt": "2021-08-29T06:20:20Z",
+      "updatedBy": "APP",
+      "middleware": "XI",
+      "middlewareReference": "0000001185813645",
+      "messageType": "SHPMNT_MQ"
+    }
+  },
+  "deliveries": [
+    {
+      "metadata": {
+        "updatedAt": "2021-08-29T06:20:20Z",
+        "updatedBy": "APP",
+        "middleware": "XI",
+        "middlewareReference": "0000001185813645"
+      },
+      "deliveryType": "ZLF",
+      "esn": "0GHH9999999",
+      "specialInstructions": "Mon-Fri: 1000-1500 No Unloading slot needed From the side Saftey Helmet, shoes, glasses and high visable jacket Mon-Fri: 1000-1500 No Unloading slot needed From the side Safety Helmet, shoes iserskis@inflekss.lv +37167556715",
+      "totalGoodsMovementStatus": "A",
+      "source": "APP",
+      "deliveryNumber": "10",
+      "soldTo": "CHARBHUJA",
+      "shipTo": "ASSOCIATED",
+      "salesOrganization": "7020",
+      "division": "04",
+      "distributionChannel": "03",
+      "status": "SHIPPED",
+      "updatedBy": "APP",
+      "updatedAt": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "plannedLoadingDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "APRIL",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 4,
+        "dayOfMonth": 4,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "etaDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "deliveryLineItems": [
+        {
+          "itemNumber": "000010",
+          "material": "104416",
+          "quantity": 30.6,
+          "uom": "EA",
+          "packageType": "PACK",
+          "grossUoM":"KG",
+          "grossWeight":"138.366"
+        }
+      ],
+      "shouldResend": false
+    },
+    {
+      "metadata": {
+        "updatedAt": "2021-08-29T06:20:20Z",
+        "updatedBy": "APP",
+        "middleware": "XI",
+        "middlewareReference": "0000001185813645"
+      },
+      "deliveryType": "ZLF",
+      "esn": "0GHH9999999",
+      "specialInstructions": "Mon-Fri: 1000-1500 No Unloading slot needed From the side Saftey Helmet, shoes, glasses and high visable jacket Mon-Fri: 1000-1500 No Unloading slot needed From the side Safety Helmet, shoes iserskis@inflekss.lv +37167556715",
+      "totalGoodsMovementStatus": "A",
+      "source": "APP",
+      "deliveryNumber": "10",
+      "soldTo": "CHARBHUJA",
+      "shipTo": "ASSOCIATED",
+      "salesOrganization": "7020",
+      "division": "04",
+      "distributionChannel": "03",
+      "status": "INPROGRESS",
+      "updatedBy": "APP",
+      "updatedAt": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "plannedLoadingDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "APRIL",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 4,
+        "dayOfMonth": 4,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "etaDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "deliveryLineItems": [
+        {
+          "itemNumber": "000010",
+          "material": "104416",
+          "quantity": 30.6,
+          "uom": "EA",
+          "packageType": "PACK",
+          "grossUoM":"KG",
+          "grossWeight":"138.366"
+        }
+      ],
+      "shouldResend": false
+    },
+    {
+      "metadata": {
+        "updatedAt": "2021-08-29T06:20:20Z",
+        "updatedBy": "APP",
+        "middleware": "XI",
+        "middlewareReference": "0000001185813645"
+      },
+      "deliveryType": "ZLF",
+      "esn": "0GHH9999999",
+      "specialInstructions": "Mon-Fri: 1000-1500 No Unloading slot needed From the side Saftey Helmet, shoes, glasses and high visable jacket Mon-Fri: 1000-1500 No Unloading slot needed From the side Safety Helmet, shoes iserskis@inflekss.lv +37167556715",
+      "totalGoodsMovementStatus": "A",
+      "source": "APP",
+      "deliveryNumber": "10",
+      "soldTo": "CHARBHUJA",
+      "shipTo": "ASSOCIATED",
+      "salesOrganization": "7020",
+      "division": "04",
+      "distributionChannel": "03",
+      "status": "LOADED",
+      "updatedBy": "APP",
+      "updatedAt": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "plannedLoadingDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "APRIL",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 4,
+        "dayOfMonth": 4,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "etaDate": {
+        "offset": {
+          "totalSeconds": 0,
+          "id": "Z",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "zone": {
+          "id": "UTC",
+          "rules": {
+            "fixedOffset": true,
+            "transitions": [
+            ],
+            "transitionRules": [
+            ]
+          }
+        },
+        "month": "JULY",
+        "dayOfWeek": "FRIDAY",
+        "dayOfYear": 211,
+        "nano": 20,
+        "year": 2021,
+        "monthValue": 7,
+        "dayOfMonth": 30,
+        "hour": 6,
+        "minute": 20,
+        "second": 20,
+        "chronology": {
+          "id": "ISO",
+          "calendarType": "iso8601"
+        }
+      },
+      "deliveryLineItems": [
+        {
+          "itemNumber": "000010",
+          "material": "104416",
+          "quantity": 30.6,
+          "uom": "EA",
+          "packageType": "PACK",
+          "grossUoM":"KG",
+          "grossWeight":"138.366"
+        }
+      ],
+      "shouldResend": false
+    }
+  ]
+}

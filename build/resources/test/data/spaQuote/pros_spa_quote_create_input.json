@@ -1,0 +1,211 @@
+{
+  "UUID": "709968ed-e7cb-3447-8397-6f24583f2b72",
+  "header": {
+    "MBU": "North America",
+    "priceBookIndicator": "E2E",
+    "PROSAgreement__Agreement_Id": "AG-0029138",
+    "PROSAgreement__StartDate": "2021-04-02",
+    "PROSAgreement__EndDate": "2021-05-01",
+    "priceListName": "PCI Canada SPA Adj",
+    "salesOrgCode": "1552",
+    "displayCurrency": "CAD",
+    "quoteId": "d7ac0472-a402-4f1d-94b1-2d1774320000",
+    "firmPricing": false,
+    "firmPricingEndDateStrField": "9999-12-31",
+    "priceProtection": false,
+    "ppNumberDays": 0,
+    "isFormulaPricing": false,
+    "quote_Score_Percentage": 1.687378,
+    "endCustomerField": "GROUPE NICOLETTI PNEUS ET MECANIQUE",
+    "distributorName": "LE GROUPE HARNOIS",
+    "distributorNameShort": "GROUPE NICOLETT",
+    "distributorAccount": "ST_0000329760_NA",
+    "distributorAccountAux": "NA0000329760",
+    "distributorERP": "NA",
+    "spaReason" :  " huge data xxxx",
+    "aggProductionExpenseField": {
+      "currency": "MXN",
+      "value": 0.001
+    },
+    "aggProductPriceField": {
+      "currency": "MXN",
+      "value": 2712515.5915
+    },
+    "apf_weight": 0.2,
+    "apt_weight": 0.1,
+    "currTotal": {
+      "currency": "MXN",
+      "value": 2774146.394
+    },
+    "currTotalRebate": {
+      "currency": "MXN",
+      "value": 783.2
+    },
+    "quoteTypeField": "SPA Quote",
+    "margin_weight": 100,
+    "netTotal": {
+      "currency": "MXN",
+      "value": 2774146.3941
+    },
+    "owner": "Elias De Los Santos Diaz",
+    "quoteApfWeighted": 12,
+    "quoteAptWeighted": 13,
+    "quoteMargin": 0.737686,
+    "quoteMarginWeighted": 0.737687,
+    "REV_DOAG": "9",
+    "sumGrossMarginFieldBBL": {
+      "currency": "MXN",
+      "value": 8849.530347
+    },
+    "totalVolumeBarrels": 167.074225,
+    "unifiedTotalVolumeL15": 26562.630001,
+    "unifiedTotalVolumeUG6": 7017.105937
+  },
+  "line": {
+    "currentQuantityColumn": 15000,
+    "shortPartNumberColumn": "123116",
+    "rebateProgram1": "NA",
+    "endDateColumn": "2021-5-1",
+    "spaPriceColumn": {
+      "value": 4.87,
+      "currency": "CAD"
+    },
+    "rebateValue4": {
+      "value": 42,
+      "currency": "CAD"
+    },
+    "rebateProgram2": "NA2",
+    "publishAccountIdColumn": "ST_0000329760_NA",
+    "unitDeliveredMarginCol": {
+      "value": 4.643428,
+      "currency": "CAD"
+    },
+    "rebateProgram5": "NA5",
+    "dontPrintCol": false,
+    "startDateColumn": "2021-4-2",
+    "distributorNetPriceColumn": {
+      "value": 4.97,
+      "currency": "CAD"
+    },
+    "rebateValue3": {
+      "value": 32,
+      "currency": "CAD"
+    },
+    "referenceCostColumn": {
+      "value": 1.290056,
+      "currency": "CAD"
+    },
+    "additionalVolNeeded": 0,
+    "rebateProgram3": "NA3",
+    "competitorPriceColumn": {
+      "value": 2.50932,
+      "currency": "CAD"
+    },
+    "additionalVolNeededPercent": 0,
+    "floorColumn": {
+      "value": 2.72084,
+      "currency": "CAD"
+    },
+    "rebateValue2": {
+      "value": 22,
+      "currency": "CAD"
+    },
+    "expertColumn": {
+      "value": 3.319506,
+      "currency": "CAD"
+    },
+    "unitGrossMarginCol": {
+      "value": 4.643274,
+      "currency": "CAD"
+    },
+    "rebateProgram4": "NA4",
+    "rebateValue1": {
+      "value": 12,
+      "currency": "CAD"
+    },
+    "exportUomColumn": "L15",
+    "requiredVolForMarginMatch": 15000,
+    "spaDiscountColumn": {
+      "value": 0.1,
+      "currency": "CAD"
+    },
+    "pocketPriceColumn": {
+      "value": 4.87,
+      "currency": "CAD"
+    },
+    "earlyPaymentDiscountColumn": {
+      "value": 17,
+      "currency": "CAD"
+    },
+    "costConverted": {
+      "value": 1.290056,
+      "currency": "CAD"
+    },
+    "sellAsProductCol": {
+      "name": "NA123116",
+      "type": "SI",
+      "namespace": "wksExxonMobil",
+      "description": "M-SUPER 3000 FM D1 0W-20 BULK"
+    },
+    "shippingCondition": "02",
+    "rebateValue5": {
+      "value": 52,
+      "currency": "CAD"
+    },
+    "targetColumn": {
+      "value": 2.963845,
+      "currency": "CAD"
+    },
+    "apf_maxColumn": 100,
+    "apf_minColumn": 85,
+    "apfScoreColumn": 0.853367,
+    "apt_bottomColumn": 30,
+    "apt_topColumn": 100,
+    "aptScoreColumn": 0.458459,
+    "deliveredMarginUoMCol": {
+      "currency": "MXN",
+      "value": 11966.838653
+    },
+    "drivingFactorCol": "Last Price as Floor",
+    "margin_bottomColumn": 10,
+    "margin_topColumn": 50,
+    "marginScoreColumn": 0.8047,
+    "premiumColumn": "PREM",
+    "productFamilyColumn": "MOBTAC",
+    "productTypeColumn": "IND",
+    "totalRebatesColumn": {
+      "currency": "MXN",
+      "value": 138.8
+    },
+    "traderMarginCol": {
+      "currency": "MXN",
+      "value": 138.9
+    },
+    "uomWaterfallCol": "DR",
+    "wtDeliverySurcharge": {
+      "currency": "MXN",
+      "value": 17
+    },
+    "wtEarlyPaymentDiscountColumn": {
+      "currency": "MXN",
+      "value": 78
+    },
+    "wtFreightColumn": {
+      "currency": "MXN",
+      "value": 21
+    },
+    "wtGrossMarginL15Col": {
+      "currency": "MXN",
+      "value": 11966.838723
+    },
+    "wtProductionExpenseCol": {
+      "currency": "MXN",
+      "value": 783.23
+    },
+    "wtProductPriceColumn": {
+      "currency": "MXN",
+      "value": 783.24
+    },
+    "rolling12MoQtyColumn": 23
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data": [{
+  "stripesSystem": "na",
+  "customer": {
+    "accountType": "customer",
+    "stripesId": "na-120666",
+    "stripesNumber": "120666"
+  },
+  "product": {
+    "stripesId": "na-106076",
+    "stripesNumber": "106076"
+  },
+  "priceBookIndicator": "E2E",
+  "priceItems": [
+    {
+      "startDate": "2020-01-01T00:01:11.000",
+      "endDate": "2020-12-31T23:59:59.000",
+      "listPrices": [
+        {
+          "uom": "UG6",
+          "currency": "USD",
+          "unitAmount": 1,
+          "value": 9.41,
+          "status": "active"
+        }
+      ],
+      "negotiatedPrices": []
+    }
+  ]
+  }]
+}

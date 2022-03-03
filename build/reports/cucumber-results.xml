@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.227">
+<testcase classname="Publish Shipment" name="Happy path for Shipment creation" time="0.345">
+<failure message="Java 8 date/time type `java.time.ZonedDateTime` not supported by default: add Module &quot;com.fasterxml.jackson.datatype:jackson-datatype-jsr310&quot; to enable handling&#10; at [Source: (String)&quot;{&#10;  &quot;shipmentDto&quot;: {&#10;    &quot;action&quot;: &quot;Change&quot;,&#10;    &quot;number&quot;: &quot;8019609545&quot;,&#10;    &quot;source&quot;: &quot;APP&quot;,&#10;    &quot;messageType&quot;: &quot;SHPMNT_MQ&quot;,&#10;    &quot;plannedLoadingDate&quot;: &quot;20210929T062020Z&quot;,&#10;    &quot;functionalStatus&quot;: &quot;2&quot;,&#10;    &quot;functionalStatusDescription&quot;: &quot;Scheduled&quot;,&#10;    &quot;metadata&quot;: {&#10;      &quot;updatedAt&quot;: &quot;2021-08-29T06:20:20Z&quot;,&#10;      &quot;updatedBy&quot;: &quot;APP&quot;,&#10;      &quot;middleware&quot;: &quot;XI&quot;,&#10;      &quot;middlewareReference&quot;: &quot;0000001185813645&quot;,&#10;      &quot;messageType&quot;: &quot;SHPMNT_MQ&quot;&#10;    }&#10;  },&#10;  &quot;deliveries&quot;: [&#10;    {&#10;      &quot;metadata&quot;: {&#10; &quot;[truncated 10579 chars]; line: 39, column: 20] (through reference chain: Shipment.dto.ShipmentInbound[&quot;deliveries&quot;]-&gt;java.util.ArrayList[0]-&gt;Shipment.dto.Delivery[&quot;updatedAt&quot;])" type="com.fasterxml.jackson.databind.exc.InvalidDefinitionException"><![CDATA[Given dds OnPrem published shipment information from json "shipment-inbound-with-deliveries.json" to shipmentInternal-qa topic.failed
+When shipment should be mapped with mapping condition correctly 10 seconds later.skipped
+Then shipment should publish the payload as "shipment_dto_19914521_full.json" event in shipment-qa topic.skipped
+
+StackTrace:
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Java 8 date/time type `java.time.ZonedDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling
+ at [Source: (String)"{
+  "shipmentDto": {
+    "action": "Change",
+    "number": "8019609545",
+    "source": "APP",
+    "messageType": "SHPMNT_MQ",
+    "plannedLoadingDate": "20210929T062020Z",
+    "functionalStatus": "2",
+    "functionalStatusDescription": "Scheduled",
+    "metadata": {
+      "updatedAt": "2021-08-29T06:20:20Z",
+      "updatedBy": "APP",
+      "middleware": "XI",
+      "middlewareReference": "0000001185813645",
+      "messageType": "SHPMNT_MQ"
+    }
+  },
+  "deliveries": [
+    {
+      "metadata": {
+ "[truncated 10579 chars]; line: 39, column: 20] (through reference chain: Shipment.dto.ShipmentInbound["deliveries"]->java.util.ArrayList[0]->Shipment.dto.Delivery["updatedAt"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1766)
+	at com.fasterxml.jackson.databind.deser.impl.UnsupportedTypeDeserializer.deserialize(UnsupportedTypeDeserializer.java:36)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:347)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:244)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:28)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:324)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:187)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:322)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4591)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3546)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3514)
+	at Shipment.stepdefs.ShipmentStepDefinitions.ddsOnPremPublishedShipmentInformationToShipmentInternalQaTopic(ShipmentStepDefinitions.java:36)
+	at ✽.dds OnPrem published shipment information from json "shipment-inbound-with-deliveries.json" to shipmentInternal-qa topic(file:///Users/luizchagas/projects/sales-pricing-e2e/src/test/resources/feature/shipmentCreate.feature:4)
+]]></failure>
+</testcase>
+</testsuite>

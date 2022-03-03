@@ -1,0 +1,13 @@
+{
+  "UUID": "c3152490-6455-36e4-8d65-012e2cfbe461",
+  "Condition_Table_ID": "PSPACANPM1",
+  "Condition_Type": "PSPACANPM",
+  "Key_Values": "AG-0023574/SPA Quote/NONE/E2E/ST_0000447049_NA/NA100000/NA100001",
+  "Valid_From_Date": "20210101",
+  "Valid_To_Date": "20221231",
+  "Currency_Code": "USD",
+  "Base_Per_Quantity": 1,
+  "Base_UOM_Code": "UG6",
+  "Condition_Value": 3.32344,
+  "Extraction_Time": "20210303 16:06:08"
+}

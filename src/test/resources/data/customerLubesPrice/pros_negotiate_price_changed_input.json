@@ -1,0 +1,14 @@
+{
+  "UUID": "b51b8d0d-318f-358d-aef5-59db1240f018",
+  "QuoteXID": "433cb8de-3477-11eb-adc1-0242ac120003",
+  "Condition_Type": "EAQP",
+  "Condition_Table_ID": "EAQP1",
+  "Key_Values": "PR_AG-0002222/Standard Quote/NONE/E2E/ST_0000120666_NA/NA106076",
+  "Valid_From_Date": "20200101",
+  "Valid_To_Date": "20200229",
+  "Currency_Code": "USD",
+  "Base_Per_Quantity": 1,
+  "Base_UOM_Code": "UG6",
+  "Condition_Value": 8,
+  "Extraction_Time": "20210103 00:04:00"
+}
